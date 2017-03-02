@@ -9,8 +9,6 @@ RUN chmod 777 /bin/frps
 RUN chmod 777 /bin/frpc
 
 
-EXPOSE 7000 7500 80 443 22
-#CMD /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
+EXPOSE 7000 7500 80 443
 #CMD frpc -c /frpc.ini
-#ENTRYPOINT ["/start"]
-CMD ["/start.sh"]
+ENTRYPOINT ["/start.sh"]
