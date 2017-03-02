@@ -1,2 +1,3 @@
 #!/bin/bash
-/bin/frps -c /bin/frps.ini
+nohup /bin/frps -c /frps.ini &
+/bin/frpc -c /frpc.ini
