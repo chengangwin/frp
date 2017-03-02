@@ -3,7 +3,7 @@ ADD frpc /bin/frpc
 ADD frps /bin/frps
 ADD frpc.ini /frpc.ini
 ADD frps.ini /frps.ini
-ADD start /start.sh
+ADD start.sh /start.sh
 RUN chmod 777 /start.sh
 RUN chmod 777 /bin/frps
 RUN chmod 777 /bin/frpc
