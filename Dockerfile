@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM centos:7
 ADD frpc /bin/frpc
 ADD frps /bin/frps
 ADD frpc.ini /frpc.ini
