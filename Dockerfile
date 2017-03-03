@@ -12,5 +12,6 @@ RUN chmod 777 /start.sh
 
 EXPOSE 7000 7500 80 443
 
-ENTRYPOINT ["/start.sh"]
+#ENTRYPOINT ["/start.sh"]
 #CMD /bin/frps -c /frps.ini
+CMD ["/start.sh"]
