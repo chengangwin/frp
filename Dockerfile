@@ -6,7 +6,7 @@ ADD frps.ini /frps.ini
 
 #ADD start.sh /start.sh
 
-#RUN chmod 777 /bin/frps
+RUN chmod 777 /bin/frps
 #RUN chmod 777 /start.sh
 
 
